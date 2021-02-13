@@ -2,7 +2,7 @@ library("forecast")   #load forecast library
 library("fUnitRoots") #For stationary data
 
 #LOad the training data
-Weeksly.sales.of.store.1 <- read.csv("C:/Users/bvsba/Desktop/UIC/Semester 2/IDS 552 - SCM/Assignment 2/Case Study 1/Weeksly sales of store 1.csv")
+Weeksly.sales.of.store.1 <- read.csv("C:/Users/arjun/Desktop/UIC/Semester 2/IDS 552 - SCM/Assignment 2/Case Study 1/Weeksly sales of store 1.csv")
 
 data_freq= 52         #Data frequency of time series.
 start_date= c(2010,5) #Time stamp of first entry in time series.
